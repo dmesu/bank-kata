@@ -1,16 +1,19 @@
 {
-    "name": "bank-kata",
-    "version": "0.0.0",
-    "description": "Bank kata.",
-    "main": "bank.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "author": "dmesu",
-    "license": "MIT",
-    "devDependencies": {
-        "mocha": "^2.1.0",
-        "should": "^5.0.0",
-        "sinon": "1.14.1"
-    }
+  "name": "bank-kata",
+  "version": "0.0.0",
+  "description": "Bank kata.",
+  "main": "bank.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "dmesu",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0",
+    "sinon": "1.14.1"
+  },
+  "dependencies": {
+    "moment": "^2.10.3"
+  }
 }
